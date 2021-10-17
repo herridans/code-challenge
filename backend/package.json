@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "npm i -g jest && cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "author": "Sean Sherridan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.6.1",
+    "joi": "^17.4.2",
+    "mongoose": "^6.0.10",
+    "nodemon": "^2.0.13",
+    "supertest": "^6.1.6"
+  }
+}
